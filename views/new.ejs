@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New</title>
+</head>
+<body>
+    <h1> Add New Scientist </h1>
+
+    <form action="/planet" method="POST">
+        <label>Name:
+            <input type="text" name="name">
+        </label><br>
+        <label> Planet Destination:
+            <input type="text" name="destination">
+        </label><br>
+        <label>Completed:
+            <input type="checkbox" name="completed">
+        </label>
+        <input type="submit" value="add planet" >
+    </form>
+
+    <a href="/planet">Home Page</a>
+
+</body>
+</html>
